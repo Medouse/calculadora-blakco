@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body {
+    width: 100%;
+    right: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+input {
+    color: white;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    border-radius: 10%;
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+}
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.main {
+    display: inline-block;
+}
+
+.maincolor {
+    background-color: rgb(23, 23, 23);
+}
+
+.blue{
+    background-color: #673bde;
+}
+
+.pin{
+    background-color: #f214af;
+}
+
+.gre{
+    background-color: #a0cb03;
+}
+
+.pur{
+    background-color: #a332db;
+}
+
+.ora{
+background-color: #f7602a;
+}
